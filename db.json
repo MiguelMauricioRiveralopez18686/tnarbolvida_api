@@ -1,0 +1,34 @@
+{
+    "usuarios": [
+      
+    ],
+    "categorias": [
+      {
+        "id": "suplementos",
+        "name": "suplementos"
+      },
+      {
+        "id": "potenciadores",
+        "name": "potenciadores"
+      },
+      {
+        "id": "nutricionales",
+        "name": "nutricionales"
+      },
+      {
+        "id": "homeopaticos",
+        "name": "homeopaticos"
+      },
+      {
+        "id": "fitoterapeuticos",
+        "name": "fitoterapeuticos"
+      },
+      {
+        "id": "cosmeticos",
+        "name": "cosmeticos"
+      }
+    ],
+    "productos": [
+      
+    ]
+  }
