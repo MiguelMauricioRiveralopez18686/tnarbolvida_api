@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap"
+          rel = "stylesheet">
+    <meta content = "width=device-width initial-scale=1.0" name = "viewport">
+    <title>Editar Productos - Tienda Naturista Arbol de la Vida</title>
+    <meta name="description" content="Tienda Naturista Arbol de la Vida - De la Madre Naturaleza para Tí">
+    <meta name="keywords" content="arbol de la Vida, arbol vida, Shampoo de Ortiga con Aloe Vera, Shampoo Prevención Caida, Shampoo de Savila, Korean Ginseng, Cartílago de tiburón, Vitamina C Plus Bioflavonoides, Gotas de la Felicidad, Gotas Rescate, Gotas Desapego,  Colágeno Hidrolizado Marino, Cr Brex, Factors, Merumach, Proteína Mega Gainer, Power Sex, Biotics, Antricol, cosmeticos, fitoterapeuticos, homeopaticos, nutricionales, potenciadores, suplementos"/>
+    <link rel="icon" href="../assets/img/favicon.png" type="image/x-png">
+    <link href = "../assets/css/normalize.css" rel = "stylesheet"/>
+    <link href = "../assets/css/reset.css" rel = "stylesheet"/>
+    <link href = "../assets/css/variables.css" rel = "stylesheet"/>
+    <link href = "../assets/css/header.css" rel = "stylesheet">
+    <link href = "../assets/css/footer.css" rel = "stylesheet">
+    <link href = "../assets/css/formStyle.css" rel = "stylesheet">
+</head>
+<body>
+<header class = "header__container">
+    <div class = "header__items">
+        <a class = "header__logoHome" href = "../index.html">
+            <img alt = "logo" class = "header__logoHome-image" src = "../assets/img/logo.svg" width="70" height="70">
+        </a>
+        <div class = "header__search">
+            <input class = "header__search-input"
+                   id = "search__items"
+                   placeholder = " Qué desea buscar ?"
+                   type = "text">
+            <button class = "header__search-button"><img alt = ""
+                                                         class = "header__search-icon"
+                                                         src = "../assets/img/header/search.svg"></button>
+        </div>
+    </div>
+
+    <a class = "header__login" href = "adminProducts.html">
+        <button class = "header__login-button">Menú Administrador</button>
+    </a>
+</header>
+<main>
+    <section class = "new__product">
+        <form class = "form_container" data-form>
+            <h2 class = "new__product-title">Editar Producto</h2>
+            <input class = "new__product-input" data-url placeholder = "url imagen" required type = "text">
+            <input class = "new__product-input" data-nombre placeholder = "Nombre del producto" required type = "text">
+            <input class = "new__product-input" data-precio placeholder = "Precio producto" required type = "text">
+            <select class = "form-selection " data-categoria  required>
+                <option data-suplementos value = "suplementos">suplementos</option>
+                <option data-potenciadores value = "potenciadores">potenciadores</option>
+                <option data-nutricionales value = "nutricionales">nutricionales</option>
+                <option data-homeopaticos value = "homeopaticos">homeopaticos</option>
+                <option data-fitoterapeuticos value = "fitoterapeuticos">fitoterapeuticos</option>
+                <option data-cosmeticos value = "cosmeticos">cosmeticos</option>
+            </select>
+            <textarea class = " new__product-input form-description" data-descripcion placeholder = "Descripcion del producto"
+                      required></textarea>
+            <button class = "new__product-button">Enviar</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <section class = "contacto__container">
+        <div class = "contacto__logo">
+            <a href = "../index.html">
+                <img alt = "logo" class = "contacto__logoFooter" src = "../assets/img/logo.svg" width="130" height="130">
+            </a>
+        </div>
+        <div class = "contacto__info">
+            <ul>
+                <li class="contacto__info-li "><a style="text-decoration: none;" class="contacto__info-text bi bi-file-lock2-fill"
+                    href="../assets/docs//Politica-Privacidad-Tienda-Naturista-Arbol-de-la-Vida.pdf" target="_blank"> Política de
+                    privacidad</a>
+                </li>
+                <li class="contacto__info-li"><a class="contacto__info-text bi bi-file-earmark-text-fill"
+                        href="../assets/docs/Terminos-y-Condiciones-Tienda-Naturista-Arbol-de-la-Vida.pdf" target="_blank"> Terminos
+                        y Condiciones</a>
+                </li>
+                <li class="contacto__info-li"><a class="contacto__info-text bi bi-box-seam-fill"
+                        href="../assets/docs/Politica-de-Envios-Arbol-de-la-Vida.pdf" target="_blank"> Política de Envios</a>
+                </li>
+            </ul>
+        </div>
+
+        <form class = "contacto__contactar" id = "form__data">
+            <h2 class = "contacto__contactar-title">Hable con nosotros</h2>
+            <label class = "contacto__contactar-nombre contacto__textBox">
+                Nombre
+                <input class = "contacto__contactar-nombreInput"
+                       id = "contact__nombre"
+                       name = "nombre"
+                       placeholder = "Pedro Santana"
+                       required
+                       type = "text">
+            </label>
+            <label class = "contacto__mensaje contacto__textBox">
+                Escribe tu mensaje<textarea class = "contacto__mensaje-text"
+                                            id = "contact__mensaje"
+                                            required></textarea>
+            </label>
+            <input class = "contacto__button" id = "contact__boton" type = "submit" value = "Enviar mensaje">
+        </form>
+    </section>
+    <div class="info__dev">
+        <p>Desarrollado por Miguel Mauricio Rivera Lopez</p>
+        <p>2023</p>
+        <a href="https://miguelmauricioriveralopez18686.github.io/portafolio-nuevaPropuesta/" target="_blank"><img src="../assets/img/github.svg" alt="git"></a>
+        <a href="https://www.linkedin.com/in/miguel-mauricio-rivera-lopez" target="_blank"><img src="../assets/img/linkedin.svg" alt="linkedin"></a>
+    </div>
+</footer>
+<script src = "../controllers/editProducto.js" type = "module"></script>
+<script src = "/controllers/form-validation.js"></script>
+<script src = "//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
