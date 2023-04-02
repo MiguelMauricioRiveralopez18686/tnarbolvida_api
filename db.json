@@ -1,0 +1,108 @@
+{
+    "usuarios": [
+      {
+        "name": "Miguel Mauricio Rivera Lopez",
+        "email": "mmrl1861986@gmail.com",
+        "password": "6302693302Lrm?",
+        "id": "1adae7ed-421f-45ec-95b3-61c6fbf90c06"
+      },
+      {
+        "name": "Jose Fernando Giraldo",
+        "email": "tnarbolvida@gmail.com",
+        "password": "19670101Gfj",
+        "id": "7bfd6830-65e2-4f80-a5d2-e670f374c399"
+      }
+    ],
+    "categorias": [
+      {
+        "id": "suplementos",
+        "name": "suplementos"
+      },
+      {
+        "id": "potenciadores",
+        "name": "potenciadores"
+      },
+      {
+        "id": "nutricionales",
+        "name": "nutricionales"
+      },
+      {
+        "id": "homeopaticos",
+        "name": "homeopaticos"
+      },
+      {
+        "id": "fitoterapeuticos",
+        "name": "fitoterapeuticos"
+      },
+      {
+        "id": "cosmeticos",
+        "name": "cosmeticos"
+      }
+    ],
+    "productos": [
+      {
+        "imageUrl": "https://miguelmauricioriveralopez18686.github.io/arbolvida/assets/img/productos/cosm/shampoo-ortiga-aloe-vera-small.jpg",
+        "name": "Shampoo de Ortiga con Aloe Vera 500 gramos",
+        "price": "$27.000",
+        "categoria": "cosmeticos",
+        "description": "Para todo tipo de cabello, revitaliza y embellece el cabello. Aplique una cantidad en la zona del cuero cabelludo con masajes circulares y ascendentes, hasta lograr compelta humectación. Deja actuar por treinta (30) segundos. Retirar con enjuague con abundante agua.",
+        "id": "dd3a3f0b-824f-4ccd-a174-0c6b31ae6a04"
+      },
+      {
+        "imageUrl": "https://miguelmauricioriveralopez18686.github.io/arbolvida/assets/img/productos/cosm/shampoo-sin-sal-small.png",
+        "name": "Shampoo Prevención Caida Sin Sal",
+        "price": "$25.000",
+        "categoria": "cosmeticos",
+        "description": "Nutre y fortalece la raíz favoreciendo el crecimiento natural del cabello.",
+        "id": "793db432-c53b-4bb0-b661-e4a4d07b8b8a"
+      },
+      {
+        "imageUrl": "https://miguelmauricioriveralopez18686.github.io/arbolvida/assets/img/productos/cosm/shampoo-savila-small.jpg",
+        "name": "Shampoo Natural de Sabila",
+        "price": "$27.000",
+        "categoria": "cosmeticos",
+        "description": "Para todo tipo de cabello, revitaliza y embellece el cabello.",
+        "id": "71899320-5299-426c-aa75-a33369b81879"
+      },
+      {
+        "imageUrl": "https://miguelmauricioriveralopez18686.github.io/arbolvida/assets/img/productos/fito/korean-ginseng-small.jpg",
+        "name": "Korean Ginseng",
+        "price": "$17.000",
+        "categoria": "fitoterapeuticos",
+        "description": "Estimula el sistema inmunológico, lo que podría ayudar al cuerpo a combatir infecciones y enfermedades.\n",
+        "id": "29485528-5332-47b1-bbbc-fd9377a6d7b0"
+      },
+      {
+        "imageUrl": "https://miguelmauricioriveralopez18686.github.io/arbolvida/assets/img/productos/homeo/gotas-felicidad-small.jpg",
+        "name": "Gotas de la Felicidad",
+        "price": "$17.000",
+        "categoria": "homeopaticos",
+        "description": "Actúa como tranquilizante natural mejorando los transtornos del sueño, angustia, tristeza, estres y anciedad.",
+        "id": "c7cc8de6-83b3-4132-9d10-4d5794b1f8a5"
+      },
+      {
+        "imageUrl": "https://miguelmauricioriveralopez18686.github.io/arbolvida/assets/img/productos/suplem/antricol-small.jpg",
+        "name": "Antricol",
+        "price": "$32.000",
+        "categoria": "suplementos",
+        "description": "Coadyuvante en el tratamiento sintomático de la artritis y osteoartritis reumatoidea, tendinitis y lumbalgias.\n",
+        "id": "b21ea7f0-e266-4f41-a2c0-756eca31b515"
+      },
+      {
+        "imageUrl": "https://miguelmauricioriveralopez18686.github.io/arbolvida/assets/img/productos/suplem/balance-b-complex-small.jpg",
+        "name": "Balance B Super Complex",
+        "price": "$40.000",
+        "categoria": "suplementos",
+        "description": "El complejo B juegan es importante en la producción de energía en el cuerpo humano.",
+        "id": "6c233f94-0e6b-4079-b4f8-eec7ef2669c2"
+      },
+      {
+        "imageUrl": "https://miguelmauricioriveralopez18686.github.io/arbolvida/assets/img/productos/suplem/biotics-small.jpg",
+        "name": "Biotics",
+        "price": "$57.000",
+        "categoria": "suplementos",
+        "description": "Suplemento dietario a base de prebióticos y probióticos\n",
+        "id": "bc5af666-7cba-41c6-81fa-864d54243f21"
+      }
+    ]
+  }
