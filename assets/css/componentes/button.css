@@ -1,0 +1,43 @@
+.button {
+    display: block;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 20rem;
+    padding: 1.125rem;
+    box-sizing: border-box;
+    color: var(--contrast-ligth-color);
+    font-size: var(--font-size-button);
+    align-self: center;
+    text-align: center;
+}
+
+.simple-button {
+    cursor: pointer;
+    border: none;
+    background-color: unset;
+    text-decoration: none;
+}
+
+.simple-button--add {
+    color: var(--primary-color);
+}
+
+.simple-button--delete {
+    color: var(--info-color);
+}
+
+.simple-button--edit {
+    color: var(--color_fondo-o-letra_botones-2);
+}
+
+
+.btn:hover {
+    box-shadow: -3px -3px 0 0;
+    transform: scale(0.9);
+}
+
+.btn:hover::after {
+    opacity: 1;
+}

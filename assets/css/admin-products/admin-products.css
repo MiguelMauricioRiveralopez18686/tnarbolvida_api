@@ -1,0 +1,319 @@
+.admin-products {
+    background-color: var(--color-fondo-grisclaro);
+}
+
+
+.agregar-producto {
+    padding: 16px;
+    background-color: var(--color_fondo-o-letra_botones-2);
+    color: #FFFFFF;
+    border: none;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+.agregar-producto:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
+    transform: scale(1.02);
+}
+
+.agregar-producto:active {
+    box-shadow: inset 0 0 30px 8px rgba(22, 26, 45, 0.11), 0 0 5px 1px #000000;
+    transform: scale(0.99);
+}
+
+.product__card--code {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--fuente_principal);
+    color: var(--color_letras-H2);
+    margin: 8px auto;
+}
+
+.product__card-icon {
+    margin: 6px;
+}
+
+.product__card-edit {
+    gap: 10px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+    top: -3%;
+}
+
+.iconEdit {
+    margin: .1rem .5rem 0 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+.iconEdit:hover {
+    filter: invert(70%) sepia(40%) saturate(100%) hue-rotate(198deg) brightness(90%) contrast(99%);
+}
+
+.iconEdit:active {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(0%);
+}
+
+.btnDelete {
+    border: none;
+    background: transparent;
+}
+
+.admin_hide {
+    display: none !important;
+}
+
+
+/*seccio estilos para formulario de editar productos*/
+
+.formEdit {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    /*border: 1px solid #595959;*/
+    border-radius: 20px;
+    width: 13rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0 0 3px 2px black;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.formEdit_title {
+
+}
+
+.formEdit_container {
+    margin: 10px auto;
+}
+
+.formEdit_input {
+    background-color: #FFFFFF;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 0 var(--color_placeholder);
+    color: #000000;;
+    border: none;
+}
+
+.formEdit_input:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
+    transform: scale(1.02);
+}
+
+.btn__form {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.button__save {
+    width: 5rem;
+    color: #F5F5F5;
+    background: #2A7AE4;
+    padding: 0.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.button__discard {
+    width: 5rem;
+    color: #F5F5F5;
+    background: #2A7AE4;
+    padding: 0.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.button__save:active {
+    box-shadow: var(--boton-active);
+    transform: scale(0.9);
+}
+
+.button__save:hover {
+    box-shadow: var(--boton-active);
+    transform: scale(0.9);
+}
+
+.button__discard:active {
+    box-shadow: var(--boton-active);
+    transform: scale(0.9);
+}
+
+
+.button__discard:hover {
+    box-shadow: var(--boton-active);
+    transform: scale(0.9);
+}
+
+
+/*estyle card*/
+.products {
+    width: 100%;
+}
+
+.product__container {
+    padding: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.product__header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.product__title {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--fuente_principal);
+    color: var(--color_letras-H2);
+}
+
+.product__mostrar {
+    display: flex;
+    align-items: center;
+    color: var(--color_fondo-o-letra_botones-2);
+    font-weight: 500;
+    font-size: 14px;
+    font-family: var(--fuente_principal);
+}
+
+.product__mostrar img {
+    margin-left: 5px;
+}
+
+.product__list {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.product__card {
+    margin: 5px;
+    gap: 2px;
+    box-shadow: 0 0 8px 8px rgb(51 156 172 / 10%);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__card:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.product__card--info {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    align-items: center;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    box-sizing: content-box;
+
+}
+
+.product__card--img {
+    box-sizing: content-box;
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 10px;
+}
+
+.product__card--title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fuente_principal);
+    color: var(--color_letras-H2);
+    margin: 8px auto;
+    max-inline-size: fit-content;
+}
+
+.product__card--price {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--fuente_principal);
+    color: var(--color_letras-H2);
+    line-height: 19px;
+    margin: 8px auto;
+}
+
+.product__card-boton {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    color: var(--color_fondo-o-letra_botones-2);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--fuente_principal);
+    width: 100%;
+    cursor: pointer;
+}
+
+.product__card-boton:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 360px) {
+    .product__container {
+        padding: 10px;
+    }
+
+    .product__list {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .product__card--img {
+        width: 130px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .product__container {
+        padding: 20px 5px;
+        width: 90%;
+    }
+
+    .product__card {
+        /*width: 50%;*/
+    }
+
+    .product__card--img {
+        width: 140px
+    }
+}

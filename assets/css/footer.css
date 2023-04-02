@@ -1,0 +1,129 @@
+.contacto__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    align-items: flex-start;
+    width: 100%;
+    background-color: var(--color_fondo_claro)
+}
+
+.contacto__info-li {
+    margin-bottom: 2rem;
+}
+
+.contacto__info-text:hover {
+    text-decoration: underline;
+}
+
+.contacto__info-text {
+    text-decoration: none;
+    color: var(--color_letras-H2);
+    margin-bottom: 210px;
+    font-size: 16px;
+}
+
+.contacto__contactar {
+    width: 40%;
+}
+
+.contacto__contactar-title {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--fuente_principal);
+}
+
+.contacto__textBox:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
+}
+
+.contacto__textBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 1.3rem 0;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px 0 rgba(22, 26, 45, 0.11);
+    color: rgba(36, 57, 85, 0.11);
+}
+
+.contacto__contactar-nombreInput {
+    border: none;
+    background-color: transparent;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.contacto__contactar-nombreInput:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.contacto__contactar-nombreInput::placeholder {
+    color: var(--color_placeholder);
+}
+
+.contacto__mensaje-text, .contacto__mensaje-text:focus {
+    outline: none;
+    resize: none;
+    border: none;
+}
+
+.contacto__button:hover {
+    box-shadow: 0 5px 10px 5px rgba(22, 26, 45, 0.11);
+    transform: scale(1.02);
+}
+
+.contacto__button:active {
+    box-shadow: var(--boton-active);
+    transform: scale(0.9);
+}
+
+.contacto__button {
+    padding: 16px;
+    background-color: var(--color_fondo-o-letra_botones-2);
+    color: #FFFFFF;
+    border: none;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+.info__dev {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+.info__dev-text {
+    font-family: var(--fuente_principal);
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 360px) {
+    .contacto__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__contactar {
+        width: 90%;
+    }
+
+    .contacto__info {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacto__container {
+        height: auto;
+    }
+}
